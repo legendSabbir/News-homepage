@@ -93,7 +93,6 @@ header.active {
   animation: slideIn 0.5s ease forwards;
 }
 header .container {
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -278,6 +277,7 @@ aside {
   }
   .nav-list {
     display: flex;
+    align-items: center;
     margin: 0;
   }
   .nav-list .nav-link {
@@ -301,11 +301,11 @@ aside {
   }
   header {
     display: block;
-    padding-block: 1.5625rem;
+    padding-block: 0 1.25rem;
     background-color: hsl(36, 100%, 99%);
   }
   main {
-    margin-block-start: 1.25rem;
+    margin-block-start: 0.625rem;
   }
   main .container {
     display: grid;
